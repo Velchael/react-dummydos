@@ -1,0 +1,161 @@
+body {
+    /*margin: 0;*/
+    background: hsla(126, 65%, 82%, 0.868);
+}
+   
+
+.cardbody{
+      margin: 0;
+      background: hsla(235, 88%, 67%, 0.847);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+        align-items: center;
+        /*display: flex;*/
+        /*text-align: center;*/
+        
+        /*align-items: center;*/
+        /*justify-content: center;*/
+        flex-direction: column;
+        
+}
+  
+    /*.App {
+      text-align: center;
+    }*/
+  
+.presenta_cssum {
+     /* margin: 0;*/
+      background: hsla(235, 84%, 80%, 0.847);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+        margin-left: 3em;
+        padding-top: 1cm;
+        padding-bottom: 300mm;
+        width: 200px;
+        /* bordas do formulário */
+        padding: 1em;
+        border: 5px solid #CCC;
+        border-radius: 1em;
+        background-color: #61dafb;
+        margin-top: 2em;
+  
+}
+    .presenta_cssdos{
+
+      background: hsla(235, 84%, 80%, 0.847);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+        margin-left: 12em;
+        padding-top: 1cm;
+        padding-bottom: 300mm;
+        width: 200px;
+        /* bordas do formulário */
+        padding: 1em;
+        border: 5px solid #CCC;
+        border-radius: 1em;
+        background-color: #61dafb;
+        margin-top: 2em;
+}
+
+.presenta_csstres{
+
+  background: hsla(235, 84%, 80%, 0.847);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    margin-left: 22em;
+    padding-top: 1cm;
+    padding-bottom: 300mm;
+    width: 200px;
+    /* bordas do formulário */
+    padding: 1em;
+    border: 5px solid #CCC;
+    border-radius: 1em;
+    background-color: #61dafb;
+    margin-top: 2em;
+}
+
+.presenta_cssquatro{
+
+  background: hsla(235, 84%, 80%, 0.847);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    margin-left: 31em;
+    padding-top: 1cm;
+    padding-bottom: 300mm;
+    width: 200px;
+    /* bordas do formulário */
+    padding: 1em;
+    border: 5px solid #CCC;
+    border-radius: 1em;
+    background-color: #61dafb;
+    margin-top: 2em;
+ 
+}
+
+.presenta_csscinco{
+
+  background: hsla(235, 84%, 80%, 0.847);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    margin-left: 41em;
+    padding-top: 1cm;
+    padding-bottom: 300mm;
+    width: 210px;
+    /* bordas do formulário */
+    padding: 1em;
+    border: 5px solid #CCC;
+    border-radius: 1em;
+    background-color: #61dafb;
+    margin-top: 2em;
+ 
+}
+
+.presenta_cssseis{
+
+  background: hsla(235, 84%, 80%, 0.847);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    margin-left: 50em;
+    padding-top: 1cm;
+    padding-bottom: 300mm;
+    width: 170px;
+    /* bordas do formulário */
+    padding: 1em;
+    border: 5px solid #CCC;
+    border-radius: 1em;
+    background-color: #61dafb;
+    margin-top: 2em;
+ 
+}
+.centralizar {
+      text-align: right;
+      text-decoration: none;
+      
+}
+.logocabecal{
+  background: hsla(235, 88%, 67%, 0.847);
+}
+.ima-principal{
+        
+        margin: 100px 40px
+}
+.cortres{
+  /*margin: 0 auto;*/
+  margin-left: 0em;
+  padding-top: 1cm;
+  width: 350px;
+  padding-bottom: 300mm;
+  /* bordas do formulário */
+  padding: 1em;
+  border: 5px solid rgb(251, 104, 104);
+  border-radius: 2em;
+  background-color: #61dafb;
+  margin-top: 4em;
+} 
