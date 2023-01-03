@@ -30,7 +30,7 @@ function App() {
 		        </ol>   
            
            </header>
-         <ul className='App-header'>  
+         <ul className='App-headerdos'>  
           <l1><Link to="/componentes/Apresentação"style={{ textDecoration: 'none' }}></Link></l1>
           <l1 className="liuno"><Link to="/componentes/Cep"className="atres"style={{ textDecoration: 'none' }}>  Cachorros  </Link></l1>
           <l1 className="liuno"><Link to="/componentes/Cadastro"className="atres"style={{ textDecoration: 'none' }}> Gatos </Link></l1>      
