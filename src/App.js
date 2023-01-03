@@ -31,13 +31,13 @@ function App() {
            
            </header>
          <ul className='App-headerdos'>  
-          <l1><Link to="/componentes/Apresentação"style={{ textDecoration: 'none' }}></Link></l1>
-          <l1 className="liuno"><Link to="/componentes/Cep"className="atres"style={{ textDecoration: 'none' }}>  Cachorros  </Link></l1>
-          <l1 className="liuno"><Link to="/componentes/Cadastro"className="atres"style={{ textDecoration: 'none' }}> Gatos </Link></l1>      
-          <l1 className="liuno"><Link to="/componentes/Lojanimal"className="atres"style={{ textDecoration: 'none' }}> Outros_Petz </Link></l1>    
-          <l1 className="liuno"><Link to="/componentes/Meupedido"className="atres"style={{ textDecoration: 'none' }}>  Productos </Link></l1> 
-          <l1 className="liuno"><Link to="/componentes/Serviços"className="atres"style={{ textDecoration: 'none' }}> Serviços </Link></l1>      
-          <l1 className="liuno"><Link to="/componentes/Condicional"className="atres"style={{ textDecoration: 'none' }}>  Cadastro </Link></l1>
+          <l1><Link to="/componentes/Apresentação"></Link></l1>
+          <l1 className="liuno"><Link to="/componentes/Cep"className="atres">Cachorros</Link></l1>
+          <l1 className="liuno"><Link to="/componentes/Cadastro"className="atres"> Gatos </Link></l1>      
+          <l1 className="liuno"><Link to="/componentes/Lojanimal"className="atres"> Outros_Petz </Link></l1>    
+          <l1 className="liuno"><Link to="/componentes/Meupedido"className="atres">  Productos </Link></l1> 
+          <l1 className="liuno"><Link to="/componentes/Serviços"className="atres"> Serviços </Link></l1>      
+          <l1 className="liuno"><Link to="/componentes/Condicional"className="atres">  Cadastro </Link></l1>
           
         </ul>
       </div>

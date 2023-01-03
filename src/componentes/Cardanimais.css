@@ -219,6 +219,7 @@ body {
   display:table-cell;
   vertical-align:middle;
   text-align:center;
+  justify-content: center;
   background-color:#800;
 }
 .atres{
