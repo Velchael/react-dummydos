@@ -6,7 +6,7 @@ export default function Serviços(){
     
     return(
 
-        <div className="presenta_cssseis">
+        <div className="presenta_cssdos">
         <h3>Serviços</h3>
         <nav>
             <ul>
@@ -18,7 +18,7 @@ export default function Serviços(){
                   <p>Hospedaje</p>
                 </li>
                 <li>
-                  <Link to="/Apresentação"style={{ textDecoration: 'none',color:'white'}}>..[ RETORNAR A PÁGINA INICIAL ]..</Link>
+                  <Link to="/Apresentação"style={{ textDecoration: 'none',color:'red'}}>..[ RETORNAR A PÁGINA INICIAL ]..</Link>
                 </li>
             </ul>
         </nav>

@@ -8,8 +8,8 @@ export default function Cep(){
     
     return(
 
-        <div className="presenta_csstres">
-        <nav>
+        <div>
+        <nav className="presenta_cssdos">
             <ul>
                 <li>
                   <div>
@@ -24,7 +24,7 @@ export default function Cep(){
                        
                 </li>
                 <li>
-                  <Link to="/Apresentação"style={{ textDecoration: 'none',color: 'white'}}>..[ RETORNAR A PÁGINA INICIAL ]..</Link>
+                  <Link to="/Apresentação"style={{ textDecoration: 'none',color: 'red'}}>..[ RETORNAR A PÁGINA INICIAL ]..</Link>
                 </li>
             </ul>
         </nav>

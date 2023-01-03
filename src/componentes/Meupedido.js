@@ -7,9 +7,9 @@ export default function Meupedido(){
     
     return(
 
-        <div className="presenta_csscinco">
+        <div>
       
-        <nav>
+        <nav className="presenta_cssdos">
             <ul>
                 <li>
                   <h2>Produtos para o cabelo dos Gatos</h2>
@@ -68,7 +68,7 @@ export default function Meupedido(){
                 
                 </li>
                 <li>
-                  <Link to="/Apresentação"style={{ textDecoration: 'none',color:'white'}}>..[ RETORNAR A PÁGINA INICIAL ]..</Link>
+                  <Link to="/Apresentação"style={{ textDecoration: 'none',color:'red'}}>..[ RETORNAR A PÁGINA INICIAL ]..</Link>
                 </li>
             </ul>
         </nav>

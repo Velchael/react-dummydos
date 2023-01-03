@@ -7,9 +7,9 @@ export default function Lojanimal(){
     
     return(
 
-        <div className="presenta_cssquatro">
+        <div>
         
-        <nav>
+        <nav className="presenta_cssdos">
             <ul>
                 <li>
 
@@ -37,7 +37,7 @@ export default function Lojanimal(){
                  </div> 
                 </li>
                 <li>
-                  <Link to="/Apresentação"style={{ textDecoration: 'none',color: "white"}}>..[ RETORNAR A PÁGINA INICIAL ]..</Link>
+                  <Link to="/Apresentação"style={{ textDecoration: 'none',color: "red"}}>..[ RETORNAR A PÁGINA INICIAL ]..</Link>
                 </li>
             </ul>
         </nav>

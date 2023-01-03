@@ -1,6 +1,11 @@
 body {
     /*margin: 0;*/
     background: hsla(126, 65%, 82%, 0.868);
+    /*display: flex;*/
+        text-align: center;
+        
+        align-items: center;
+        justify-content: center;
 }
    
 
@@ -44,13 +49,16 @@ body {
 }
     .presenta_cssdos{
 
+    
+
       background: hsla(235, 84%, 80%, 0.847);
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
         sans-serif;
-        margin-left: 12em;
+        margin: 0 auto;
+       /* margin-left: 12em;
         padding-top: 1cm;
-        padding-bottom: 300mm;
+        padding-bottom: 300mm;*/
         width: 200px;
         /* bordas do formulário */
         padding: 1em;
@@ -66,9 +74,19 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-    margin-left: 22em;
+   /* margin-left: 22em;
     padding-top: 1cm;
-    padding-bottom: 300mm;
+    padding-bottom: 300mm;*/
+ 
+  /* text-align: center;*/
+  /*display: flex;*/
+
+
+  text-align: center;
+          
+  align-items: center;
+  justify-content: center;
+   
     width: 200px;
     /* bordas do formulário */
     padding: 1em;
@@ -134,11 +152,17 @@ body {
     margin-top: 2em;
  
 }
-.centralizar {
-      text-align: right;
-      text-decoration: none;
+/*.centralizar {
+    /*display: flex;
+        text-align: center;
+        
+        align-items: center;
+        justify-content: center;
+    
+    text-decoration: none;*/
+
       
-}
+
 .logocabecal{
   background: hsla(235, 88%, 67%, 0.847);
 }
@@ -159,3 +183,97 @@ body {
   background-color: #61dafb;
   margin-top: 4em;
 } 
+.corumnav{
+  /*margin-left: 56em;
+  padding-top: 1cm;
+  padding-bottom: 300mm;*/
+  margin: 0 auto;
+}
+.corum{
+  /*margin-left: 56em;
+  padding-top: 1cm;
+  padding-bottom: 300mm;*/
+  margin: 0 auto;
+  width: 200px;
+  /* bordas do formulário */
+  padding: 1em;
+  border: 5px solid #CCC;
+  border-radius: 1em;
+  background-color: #61dafb;
+  margin-top: 4em;
+
+
+
+
+}
+
+
+/*/////////////// App.css  /////*/
+
+.oldos{
+  list-style:none;
+  padding:0px;
+}
+.liuno{
+  width:150px;
+  height:25px;
+  border-right:#FFF solid 1px;
+  font-size:20px;
+  display:table-cell;
+  vertical-align:middle;
+  text-align:center;
+  background-color:#800;
+}
+.atres{
+  text-decoration:none;
+  color:#FFF;
+}
+.liuno:hover{
+  background-color:#F00;
+}
+.App {
+  /*text-align: left;*/
+  align-items: left;
+}
+.imputcab{
+
+  margin: 18px 40px
+  
+}
+.um {
+  width: 93%;
+  background: rgb(244, 101, 24);
+  margin-bottom:0px;
+}
+
+.App-logo {
+  color: #000000;
+  height: 17vmin;
+  /*pointer-events: none;*/
+}
+.App-header {
+  background-color: #45474b;
+  min-height: 10vh;
+  display: flex;
+  margin: 10px 10px 10px 10px;
+
+  justify-content: center;
+  font-size: calc(10px + 4vmin);
+  color: white;
+  
+}
+
+.App-link {
+
+  color: #000000;
+  
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

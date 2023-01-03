@@ -1,4 +1,3 @@
-import './componentes/Cardanimais.css';
 import React from 'react';
 import { BrowserRouter,Route,Routes,Link } from 'react-router-dom';
 import Cep from "./componentes/Cep";
@@ -7,7 +6,8 @@ import Cadastro from "./componentes/Cadastro";
 import Meupedido from "./componentes/Meupedido";
 import Apresentação from './componentes/Apresentação';
 import Serviços from './componentes/Serviços';
-import './App.css';
+/*import './App.css';*/
+import './componentes/Cardanimais.css'
 import logo from './logo.svg';
 import Condicional from './componentes/Condicional';
 function App() {
@@ -19,32 +19,32 @@ function App() {
     <BrowserRouter basename="/react-dummydos">
            
       <div className='centralizar'>
-        <ul>
-          <div className="um">
+        
+          
            <header className="App-header">
             <l1><Link to="/"><img src={logo} className="App-logo" alt="logo" />🐾🐾</Link></l1>
-            <p>PetsTOTI</p>      
-            <div className='imputcab'><input type="text"placeholder="      Digite o Producto 🔍"  /></div>             
-            <ol className="lidos">
-			       <li className="liuno"><a className="atres"href="/componentes/Condicional">Cadastro</a></li>
-			       <li className="liuno" ><a className="atres"href="#top">Carro 🛒</a></li>
-			       <li className="liuno"><a className="atres"href="#top">Mapa 🚀</a></li>
+            <p>PetsTOTI</p>                 
+            <ol>
+			       <li className="liuno" ><a className="atres"href="#top">Sobre nós</a></li>
+			       <li className="liuno"><a className="atres"href="#top">Fale Conosco</a></li>
 		        </ol>   
+           
            </header>
-          </div>
-          <l1 className="liuno"><Link to="/componentes/Apresentação"className="atres"style={{ textDecoration: 'none' }}> Inicio </Link></l1>
+         <ul className='app-header'>  
+          <l1><Link to="/componentes/Apresentação"style={{ textDecoration: 'none' }}></Link></l1>
           <l1 className="liuno"><Link to="/componentes/Cep"className="atres"style={{ textDecoration: 'none' }}>  Cachorros  </Link></l1>
           <l1 className="liuno"><Link to="/componentes/Cadastro"className="atres"style={{ textDecoration: 'none' }}> Gatos </Link></l1>      
           <l1 className="liuno"><Link to="/componentes/Lojanimal"className="atres"style={{ textDecoration: 'none' }}> Outros_Petz </Link></l1>    
           <l1 className="liuno"><Link to="/componentes/Meupedido"className="atres"style={{ textDecoration: 'none' }}>  Productos </Link></l1> 
           <l1 className="liuno"><Link to="/componentes/Serviços"className="atres"style={{ textDecoration: 'none' }}> Serviços </Link></l1>      
           <l1 className="liuno"><Link to="/componentes/Condicional"className="atres"style={{ textDecoration: 'none' }}>  Cadastro </Link></l1>
+          
         </ul>
       </div>
     
       <Routes>
 
-        <Route exact path="/componentes/react-dummydos"element={<Apresentação />}/>
+        <Route exact path="/componentes/Apresentação/react-dummydos"element={<Apresentação />}/>
 
         <Route path="/componentes/Cep"element={<Cep />}/>
         
