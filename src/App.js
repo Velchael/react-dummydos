@@ -23,14 +23,14 @@ function App() {
           
            <header className="App-header">
             <l1><Link to="/"><img src={logo} className="App-logo" alt="logo" />🐾🐾</Link></l1>
-            <p>PetsTOTI</p>                 
+            <p className="App-header">PetTOTI</p>                 
             <ol>
 			       <li className="liuno" ><a className="atres"href="#top">Sobre nós</a></li>
 			       <li className="liuno"><a className="atres"href="#top">Fale Conosco</a></li>
 		        </ol>   
            
            </header>
-         <ul className='app-header'>  
+         <ul className='App-header'>  
           <l1><Link to="/componentes/Apresentação"style={{ textDecoration: 'none' }}></Link></l1>
           <l1 className="liuno"><Link to="/componentes/Cep"className="atres"style={{ textDecoration: 'none' }}>  Cachorros  </Link></l1>
           <l1 className="liuno"><Link to="/componentes/Cadastro"className="atres"style={{ textDecoration: 'none' }}> Gatos </Link></l1>      
