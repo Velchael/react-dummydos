@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/react-dummydos/static/css/main.d95a8ca4.css",
-    "main.js": "/react-dummydos/static/js/main.07675f82.js",
+    "main.css": "/react-dummydos/static/css/main.ba151cca.css",
+    "main.js": "/react-dummydos/static/js/main.c0125bb1.js",
     "static/js/787.dd217f5a.chunk.js": "/react-dummydos/static/js/787.dd217f5a.chunk.js",
+    "static/media/pexels-pixabay-451701.jpg": "/react-dummydos/static/media/pexels-pixabay-451701.6a886dd1f099cac1dac6.jpg",
     "static/media/logo.svg": "/react-dummydos/static/media/logo.79f8f4c36318e9f9feb80bf0e8abb124.svg",
     "index.html": "/react-dummydos/index.html",
-    "main.d95a8ca4.css.map": "/react-dummydos/static/css/main.d95a8ca4.css.map",
-    "main.07675f82.js.map": "/react-dummydos/static/js/main.07675f82.js.map",
+    "main.ba151cca.css.map": "/react-dummydos/static/css/main.ba151cca.css.map",
+    "main.c0125bb1.js.map": "/react-dummydos/static/js/main.c0125bb1.js.map",
     "787.dd217f5a.chunk.js.map": "/react-dummydos/static/js/787.dd217f5a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d95a8ca4.css",
-    "static/js/main.07675f82.js"
+    "static/css/main.ba151cca.css",
+    "static/js/main.c0125bb1.js"
   ]
 }
