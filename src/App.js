@@ -37,9 +37,8 @@ function App() {
           <l1 className="liuno"><Link to="/componentes/Lojanimal"className="atres"> Outros_Petz </Link></l1>    
           <l1 className="liuno"><Link to="/componentes/Meupedido"className="atres">  Productos </Link></l1> 
           <l1 className="liuno"><Link to="/componentes/Serviços"className="atres"> Serviços </Link></l1>      
-          <l1 className="liuno"><Link to="/componentes/Condicional"className="atres">  Cadastro </Link></l1>
-          
-        </ul>
+          <l1 className="liuno"><Link to="/componentes/Condicional"className="atres">  Cadastro </Link></l1>   
+         </ul>
       </div>
     
       <Routes>

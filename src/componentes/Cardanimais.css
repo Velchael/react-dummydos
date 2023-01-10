@@ -1,11 +1,14 @@
 body {
-    margin: 5;
+  align-items: center;
+  text-align: center;
+  background: url("pasta/pexels-pixabay-451701.jpg");
+  /*  margin: 5;
     background: hsla(126, 65%, 82%, 0.868);
-    /*display: flex;*/
+    /*display: flex;
         text-align: center;
         
         align-items: center;
-        justify-content: center;
+        justify-content: center;*/
 }
    
 
@@ -149,17 +152,6 @@ body {
     margin-top: 2em;
  
 }
-/*.centralizar {
-    /*display: flex;
-        text-align: center;
-        
-        align-items: center;
-        justify-content: center;
-    
-    text-decoration: none;*/
-
-      
-
 .logocabecal{
   background: hsla(235, 88%, 67%, 0.847);
 }
@@ -198,10 +190,6 @@ body {
   border-radius: 1em;
   background-color: #61dafb;
   margin-top: 4em;
-
-
-
-
 }
 
 

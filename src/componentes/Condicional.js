@@ -33,7 +33,7 @@ function Condicional(){
     </div>
     </li>
     <li>
-                  <Link to="/Apresentação"style={{ textDecoration: 'none', color:"white"
+                  <Link to="/Apresentação"style={{ textDecoration: 'none', color:"red"
                     
                   }}>..[ RETORNAR A PÁGINA INICIAL ]..</Link>
     </li>
