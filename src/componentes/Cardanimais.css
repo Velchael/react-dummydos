@@ -1,7 +1,8 @@
 body {
-  align-items: center;
-  text-align: center;
-  background: url("pasta/pexels-pixabay-451701.jpg");
+  /*align-items: center;
+  text-align: center;*/
+  background: url("pasta/pexels-pixabay-451701dos.jpg");
+
   /*  margin: 5;
     background: hsla(126, 65%, 82%, 0.868);
     /*display: flex;
@@ -199,7 +200,7 @@ body {
   list-style:none;
   padding:0px;
 }
-.liuno{
+/*.liuno{
   width:150px;
   height:25px;
   border-right:#FFF solid 1px;
@@ -207,15 +208,25 @@ body {
   display:table-cell;
   vertical-align:middle;
   text-align:center;
-  justify-content: center;
+  /*justify-content: center;
   background-color:#800;
-}
+}*/
 .atres{
   text-decoration:none;
   color:#FFF;
+  width:150px;
+  height:10px;
+  border-right:#FFF solid 1px;
+  font-size:20px;
+  display:table-cell;
+  vertical-align:middle;
+  text-align:center;
+  cursor: pointer;
+  /*justify-content: center;*/
+  background-color:rgb(112, 113, 111);
 }
-.liuno:hover{
-  background-color:#F00;
+.atres:hover{
+  background-color:rgb(169, 198, 201);
 }
 .App {
   /*text-align: left;*/
@@ -234,7 +245,9 @@ body {
 
 .App-logo {
   /*color: #000000;*/
-  height: 15vmin;
+  height: 12vmin;
+  padding: 0 1rem;
+  float: left;
   /*pointer-events: none;*/
 }
 .App-header {
@@ -243,22 +256,25 @@ body {
   display: flex;
   margin: 10px 1px 10px 10px;
 
-  justify-content: center;
-  font-size: calc(10px + 4vmin);
+  justify-content: space-between;
+  font-size: calc(8px + 4vmin);
   color: white;
   
 }
 
 .App-headerdos {
   /*background-color: #45474b;*/
- /* min-height: 1vh;*/
+ /* min-height: 1vh;
   display: flex;
   margin: 10px 10px 10px 10px;
 
   justify-content: center;
  /* font-size: calc(10px + 4vmin);*/
   /*color: white;*/
-  
+  min-height: 6vh;
+  margin: 10px 1px 10px 10px;
+  justify-content: space-between;
+
 }
 
 .App-link {

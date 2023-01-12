@@ -18,28 +18,26 @@ function App() {
 
     <BrowserRouter basename="/react-dummydos">
            
-      <div className='centralizar'>
-        
-          
            <header className="App-header">
-            <l1><Link to="/"><img src={logo} className="App-logo" alt="logo" />🐾🐾</Link></l1>
-            <p className="App-header">PetTOTI</p>                 
-            <ol>
-			       <li className="liuno" ><a className="atres"href="#top">Sobre nós</a></li>
-			       <li className="liuno"><a className="atres"href="#top">Fale Conosco</a></li>
-		        </ol>   
-           
+            <nav>
+            <Link to="/"><img src={logo} className="App-logo" alt="logo" /></Link> 
+            <p className="App-headerdos">PetTOTI     
+            <Link to= "/" style = { {  textDecoration : 'none' , color : "white" } } > "A felicidade que seu Pet merece" </Link>           
+            
+             
+            <Link to= "/" className="atres"style = { {  textDecoration : 'none' , color : "white" } } > Sobre nós </Link>
+            <Link to= "/" className="atres"style = { {  textDecoration : 'none' , color : "white" } } > Fala Conosco </Link>
+             </p>
+              <Link to="/componentes/Apresentação"></Link>
+              <Link to="/componentes/Cep"className="atres">Cachorros</Link>
+              <Link to="/componentes/Cadastro"className="atres"> Gatos </Link>      
+              <Link to="/componentes/Lojanimal"className="atres"> Outros_Petz </Link>    
+              <Link to="/componentes/Meupedido"className="atres">  Productos </Link>
+              <Link to="/componentes/Serviços"className="atres"> Serviços </Link>    
+              <Link to="/componentes/Condicional"className="atres">  Cadastro </Link>        
+            </nav>
            </header>
-         <ul className='App-headerdos'>  
-          <l1><Link to="/componentes/Apresentação"></Link></l1>
-          <l1 className="liuno"><Link to="/componentes/Cep"className="atres">Cachorros</Link></l1>
-          <l1 className="liuno"><Link to="/componentes/Cadastro"className="atres"> Gatos </Link></l1>      
-          <l1 className="liuno"><Link to="/componentes/Lojanimal"className="atres"> Outros_Petz </Link></l1>    
-          <l1 className="liuno"><Link to="/componentes/Meupedido"className="atres">  Productos </Link></l1> 
-          <l1 className="liuno"><Link to="/componentes/Serviços"className="atres"> Serviços </Link></l1>      
-          <l1 className="liuno"><Link to="/componentes/Condicional"className="atres">  Cadastro </Link></l1>   
-         </ul>
-      </div>
+
     
       <Routes>
 
@@ -72,3 +70,22 @@ function App() {
 
 
 export default App;
+
+/*  <header className="App-header">
+            <l1><Link to="/"><img src={logo} className="App-logo" alt="logo" />🐾🐾</Link></l1>
+            <p className="App-header">PetTOTI</p>                 
+            <ol>
+			       <li className="liuno" ><a className="atres"href="#top">Sobre nós</a></li>
+			       <li className="liuno"><a className="atres"href="#top">Fale Conosco</a></li>
+		        </ol>   
+           
+           </header>
+         <ul className='App-headerdos'>  
+          <l1><Link to="/componentes/Apresentação"></Link></l1>
+          <l1 className="liuno"><Link to="/componentes/Cep"className="atres">Cachorros</Link></l1>
+          <l1 className="liuno"><Link to="/componentes/Cadastro"className="atres"> Gatos </Link></l1>      
+          <l1 className="liuno"><Link to="/componentes/Lojanimal"className="atres"> Outros_Petz </Link></l1>    
+          <l1 className="liuno"><Link to="/componentes/Meupedido"className="atres">  Productos </Link></l1> 
+          <l1 className="liuno"><Link to="/componentes/Serviços"className="atres"> Serviços </Link></l1>      
+          <l1 className="liuno"><Link to="/componentes/Condicional"className="atres">  Cadastro </Link></l1>   
+         </ul>*/
